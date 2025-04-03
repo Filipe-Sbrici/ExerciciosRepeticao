@@ -9,11 +9,11 @@
 <body>
     <?php
         $num = $_POST["var1"];
-        $inter = $_POST["var2"]
+        $inter = $_POST["var2"];
     
-        for ($i = 0; $i >= $num; $i+=$inter){
-                echo " $i <br>";
-        }
+        for ($i = 0; $i <= $num; $i+=$inter){
+            echo " $i <br>";
+    }
     ?>
 </body>
 </html>
