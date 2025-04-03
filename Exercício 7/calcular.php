@@ -10,7 +10,7 @@
     <?php
         $num = $_POST["var"];
     
-        for ($i = $num; $i > 0; $i--){
+        for ($i = $num; $i >= 0; $i--){
             if ($i % 2 == 0){
                 echo " $i <br>";
             }
