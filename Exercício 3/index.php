@@ -9,7 +9,7 @@
 <body>
 <?php
         for ($i = 0; $i < 11; $i+=3) {
-            echo "i$<br>";
+            echo "$i<br>";
         }
     ?>
 </body>
