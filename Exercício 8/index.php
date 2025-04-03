@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input type = 'text' name = "num">
+<form method = "post" action="calcular.php">
+    <h2>Insira a frase:</h2>
+    <input type = "number"  name="num" size="25" /> <br></br>
+    <input type = "submit" name="Enviadar" size="25">
+</form>
 </body>
 </html>
