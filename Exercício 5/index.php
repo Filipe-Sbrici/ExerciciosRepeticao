@@ -9,7 +9,7 @@
 <body>
     <form action="calcular.php" method="post">
     <h2>Insira uma frase de sua escolha: <input type="text" name="var1"></h2>
-    <h2>Insira Quantas vezes a frase será dita: <input type="number" name="var" min = "1"></h2>
+    <h2>Insira Quantas vezes a frase será dita: <input type="number" name="var2" min = "1"></h2>
     <input type="submit" text = "enviar">
     </form>
 </body>

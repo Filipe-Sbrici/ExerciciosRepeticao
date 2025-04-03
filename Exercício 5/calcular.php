@@ -8,11 +8,11 @@
 </head>
 <body>
     <?php
-        $frase = $_POST[var1];
-        $qtd = $_POST[var2];
+        $frase = $_POST["var1"];
+        $qtd = $_POST["var2"];
     
         for ($i = 0; $i < $qtd; $i++){
-            echo "$frase<br>"
+            echo "$frase<br>";
         }
     ?>
 </body>
