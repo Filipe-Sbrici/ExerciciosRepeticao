@@ -6,6 +6,11 @@
     <title>Exercício 6</title>
 </head>
 <body>
-<input type = "text"  name="num" size="25" /> <br></br>
+<form method = "post" action="calcular.php">
+    <h2>Insira a frase:</h2>
+    <input type = "text"  name="num" size="25" /> <br></br>
+    <input type = "submit" name="Enviadar" size="25">
+</form>
+
 </body>
 </html>
