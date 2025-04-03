@@ -8,7 +8,7 @@
 <body>
 <form method = "post" action="calcular.php">
     <h2>Insira a frase:</h2>
-    <input type = "text"  name="num" size="25" /> <br></br>
+    <input type = "number"  name="num" size="25" /> <br></br>
     <input type = "submit" name="Enviadar" size="25">
 </form>
 
