@@ -1,10 +1,11 @@
 <?php
 
 $num = $_POST ["num"];
-
-for ($i = num; $i <= 0; $i--) {
+$inter = $_POST ["inter"];
+for ($i = $num; $i >= 0; $i -= $inter) {
     
     echo "$i<br>";
 }
 
 ?>
+
