@@ -8,5 +8,6 @@
 <body>
     <h2>Insira a frase:</h2>
     <input type = "text"  name="frase" size="25" /> <br></br>
+    <input type = "submit" name="Enviadar" size="25">
 </body>
 </html>
